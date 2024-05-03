@@ -1,0 +1,41 @@
+.container {
+  margin: 0 auto;
+  padding: 64px;
+
+  width: 100%;
+  max-width: 80rem;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: start;
+  gap: 32px;
+
+  @media screen and (max-width: 1366px) {
+    padding: 64px 32px;
+
+    flex-direction: column;
+    align-items: center;
+  }
+
+  a {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  ol {
+    list-style-type: decimal;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+}
