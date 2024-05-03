@@ -221,7 +221,7 @@ const Generate = () => {
                     <button className={edit === 0 ? styles.editButtonActive : styles.editButton}
                             onClick={() => setEdit(0)}
                     >
-                        background
+                        colors
                     </button>
 
                     <button className={edit === 1 ? styles.editButtonActive : styles.editButton}
