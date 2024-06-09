@@ -217,10 +217,6 @@ const Generate = () => {
                     <a href={'https://github.com/rokartur'} target={'_blank'}>
                         rokartur &#169; {dayjs().format('YYYY')}
                     </a>
-
-                    <a href={'/privacy'} >
-                        Privacy Policy
-                    </a>
                 </div>
             </div>
 
